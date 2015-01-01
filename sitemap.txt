@@ -1,6 +1,6 @@
  
-http://carlboettiger.info/software/EML.html  
-http://carlboettiger.info/sitemap.txt 
+http://www.carlboettiger.info/labnotebook/software/EML.html  
+http://www.carlboettiger.info/labnotebook/sitemap.txt 
 
  
-http://carlboettiger.info/06/09/PopBio-Core-Review-Notes.html 
+http://www.carlboettiger.info/labnotebook/06/09/PopBio-Core-Review-Notes.html 
