@@ -4,12 +4,11 @@ redirects: [feed, wordpress/feed]
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
  <title>{{ site.title }}</title>
- <link href="{{ site.production_url }}/atom.xml" rel="self"/>
- <link href="{{ site.production_url }}"/>
+ <link href="/{{ site.repo }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <id>{{ site.url }}/{{ site.repo }}/atom.xml</id>
  <author>
    <name>{{ site.author.name }}</name>
  </author>
@@ -17,11 +16,11 @@ redirects: [feed, wordpress/feed]
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{ site.production_url }}{{ post.url }}"/>
+	 <link href="/{{ site.repo }}/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
    {% for category in post.categories %} 
-   <category term="{{ site.baseurl }}/categories.html#{{ category | cgi_escape }}" label="{{ category }}"/>
+	 <category term="/{{ site.repo }}/categories.html#{{ category | cgi_escape }}" label="{{ category }}"/>
    {% endfor %}
    <content type="html">{{ post.content | codecogs | xml_escape }}</content>
  </entry>
