@@ -1,8 +1,6 @@
----
-title : Sitemap
----
-{% for page in site.pages %} 
-http://carlboettiger.info{{ page.url }} {% endfor %}
+ 
+http://carlboettiger.info/software/EML.html  
+http://carlboettiger.info/sitemap.txt 
 
-{% for post in site.posts %} 
-http://carlboettiger.info{{ post.url }} {% endfor %}
+ 
+http://carlboettiger.info/06/09/PopBio-Core-Review-Notes.html 
