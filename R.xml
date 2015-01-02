@@ -4,17 +4,17 @@ title : Atom Feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>{{ site.title }}</title>
- <link href="/{{ site.repo }}/atom.xml" rel="self"/>
+ <title>{{ site.title }} - R</title>
+ <link href="/{{ site.repo }}/R.xml" rel="self"/>
  <link href="/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}/{{ site.repo }}</id>
+ <id>{{ site.url }}</id>
  <author>
    <name>{{ site.author.name }}</name>
    <email>{{ site.author.email }}</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.tags.R %}
  <entry>
    <title>{{ post.title }}</title>
 	 <link href="/{{ site.repo }}{{ post.url }}"/>
@@ -24,3 +24,4 @@ title : Atom Feed
  </entry>
  {% endfor %}
  
+</feed>
