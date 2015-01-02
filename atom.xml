@@ -2,25 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Lab Notebook</title>
- <link href="/atom.xml" rel="self"/>
- <link href=""/>
- <updated>2015-01-01T19:58:23+00:00</updated>
- <id>http://www.carlboettiger.info</id>
+ <link href="/2008/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2015-01-02T03:22:59+00:00</updated>
+ <id>http://www.carlboettiger.info/2008</id>
  <author>
    <name>Carl Boettiger</name>
+   <email>cboettig@gmail.com</email>
  </author>
- <rights>CC0</rights>
+
  
  <entry>
    <title>Popbio Core Review Notes</title>
-   <link href="/06/09/PopBio-Core-Review-Notes.html"/>
+	 <link href="/2008/06/09/PopBio-Core-Review-Notes.html"/>
    <updated>2008-06-09T00:00:00+00:00</updated>
-   <id>http://www.carlboettiger.info/06/09/PopBio-Core-Review-Notes</id>
-    
-   <category term="/categories.html#ecology" label="ecology"/>
-    
-   <category term="/categories.html#evolution" label="evolution"/>
-   
+   <id>/06/09/PopBio-Core-Review-Notes</id>
    <content type="html">&lt;p&gt;Embedded versions of my summary sheets for the Population Biology graduate group core course, organized by faculty member’s section.&lt;/p&gt;
 &lt;h3 id=&quot;schreiber-single-species-population-dynamics&quot;&gt;Schreiber: Single species population dynamics&lt;/h3&gt;
 &lt;embed src=&quot;2008/assets/files/pbg-core-notes/Schreiber2.pdf&quot; width=700 height=500&gt;
@@ -45,4 +41,4 @@
 </content>
  </entry>
  
-</feed>
+ 
